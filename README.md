@@ -1,4 +1,4 @@
-# RedditPolitcalSentimentAnalysis
+# RedditPoliticalSentimentAnalysis
 My final year university project used a CNN model to classify Reddit comments as either left-wing or right-wing. The data was then analysed to search for trends. These trends were then displayed on a website.
 
 The data to train the CNN model was collected by me using the scripts in the RedditDataCollection file. It accessed the API of the two UK-based political Subreddits r/labouruk and r/tories. I then manually classified the data and attempted to train the AI on it. However, as there was not enough data and I did not have enough time to manually label each comment I went with a more naive solution that involved labelling all comments of r/tories as right-wing and all comments of r/labouruk as left-wing. This helped increase the accuracy of the model but it could still only reach an accuracy of 67% due to the limited amount of data and the naive way in which I had to label it. I did continue with using the model to predict on the data and still analysed the information from the predictions. These trends were then graphed using Matplotlib and uploaded to a website to present this data.
